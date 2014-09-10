@@ -9,10 +9,6 @@
             "email": "hey@mitchellvanwijngaarden.nl"
         },
         {
-            "name": "Claudio Ludovico Panetta",
-            "email": "ludo@6go.it"
-        },
-        {
             "name": "DanPhyxius",
             "email": "costa.danilo88@gmail.com"
         }
@@ -24,7 +20,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Ludo237\\Hashids": "src/"
+            "DanPhyxius\\Hashids": "src/"
         }
     },
     "minimum-stability": "stable",

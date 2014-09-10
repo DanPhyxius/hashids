@@ -1,4 +1,4 @@
-<?php namespace Ludo237\Hashids;
+<?php namespace DanPhyxius\Hashids;
 
 use Hashids\Hashids;
 use Illuminate\Support\ServiceProvider;
@@ -12,7 +12,7 @@ class HashidsServiceProvider extends ServiceProvider
 	 */
 	public function boot()
 	{
-		$this->package('ludo237/hashids');
+		$this->package('DanPhyxius/hashids');
 	}
 
 	/**

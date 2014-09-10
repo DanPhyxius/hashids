@@ -23,19 +23,19 @@ Next use Composer to update your project from the the Terminal:
 Once the package has been installed you'll need to add the service provider. Open your `app/config/app.php` configuration file, and add a new item to the `providers` array.
 
   ```php
-  'Ludo237\Hashids\HashidsServiceProvider'
+  'DanPhyxius\Hashids\HashidsServiceProvider'
   ```
 
 After doing this you also need to add an alias. In your `app/config/app.php` file, add this to the `aliases` array.
 
   ```php
-  'Hashids' => 'Ludo237\Hashids\Hashids'
+  'Hashids' => 'DanPhyxius\Hashids\Hashids'
   ```
 
 Now last but not least you need to publish to package configuration from your Terminal:
 
   ```php
-  php artisan config:publish ludo237/hashids
+  php artisan config:publish danphyxius/hashids
   ```
 
 ## Usage
