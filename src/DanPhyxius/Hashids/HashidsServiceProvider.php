@@ -12,7 +12,7 @@ class HashidsServiceProvider extends ServiceProvider
 	 */
 	public function boot()
 	{
-		$this->package('DanPhyxius/hashids');
+		$this->package('danphyxius/hashids');
 	}
 
 	/**
